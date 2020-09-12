@@ -14,10 +14,10 @@ Jupytext implements many text [formats](formats.md) for Jupyter Notebooks. If yo
 
 If your notebook contains more text than code, if you are writing a documentation or a book, you probably want to save your notebook as a Markdown document.
 - Use the [Jupytext Markdown format](formats.md#jupytext-markdown) if you wish to render your notebook as a `.md` file (without its outputs) on GitHub.
-- Use the [Myst Markdown format](formats.md#myst-markdown), a markdown flavor that “implements the best parts of reStructuredText”, if you wish to render your notebooks using Sphinx or [Jupyter Book](https://jupyterbook.org).
+- Use the [MyST Markdown format](formats.md#myst-markdown), a markdown flavor that “implements the best parts of reStructuredText”, if you wish to render your notebooks using Sphinx or [Jupyter Book](https://jupyterbook.org).
 - Finally, if you want to open your Jupyter Notebooks in RStudio, use the [R Markdown format](formats.md#r-markdown).
 
-Jupytext is easy to [install](install.md). Run either of
+Jupytext is easy to [install](install.md). Run either
 ```bash
 pip install jupytext
 ```
@@ -25,7 +25,7 @@ or
 ```bash
 conda install jupytext -c conda-forge
 ```
-Restart your Jupyter server... and enjoy text notebooks (right-click, _open with notebook_) and paired notebooks (_pair notebook with..._ in the [Jupyter Commands](install.md#jupytext-commands-in-jupyterlab)!
+Restart your Jupyter server... and enjoy text notebooks (right-click, _open with notebook_) and paired notebooks (_pair notebook with..._ in the [Jupyter Commands](install.md#jupytext-commands-in-jupyterlab))!
 
 If you're new to Jupytext, you may want to start with the [FAQ](faq.md) or the [Tutorials](tutorials.md).
 
