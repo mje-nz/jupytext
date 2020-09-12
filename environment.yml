@@ -31,4 +31,3 @@ dependencies:
   - recommonmark
   - pip:
     - sphinx_copybutton
-    - sphinx_rtd_theme
